@@ -1,0 +1,15 @@
+Django
+djangorestframework
+gunicorn
+drf-generators
+django-typomatic
+black
+pyyml
+uritemplate
+django-rest-swagger
+django-rest-auth
+django-allauth
+drf-api-logger
+django-cors-headers
+django-filter
+drf-yasg
