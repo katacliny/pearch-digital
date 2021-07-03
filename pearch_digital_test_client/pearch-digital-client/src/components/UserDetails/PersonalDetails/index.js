@@ -26,7 +26,7 @@ export default function PersonalDetails(){
                 Object.keys(data.data).map(key => messages.push(key + ": " + data.data[key]));
                 updateErrors(messages);
             } else {
-                console.log("Hecho!!");
+                alert("Done !");
             }
         });
     }
@@ -39,7 +39,7 @@ export default function PersonalDetails(){
                 Object.keys(data.data).map(key => messages.push(key + ": " + data.data[key]));
                 updateErrors(messages);
             } else {
-                console.log("Hecho!!");
+                alert("Done !");
             }
         });
     }
