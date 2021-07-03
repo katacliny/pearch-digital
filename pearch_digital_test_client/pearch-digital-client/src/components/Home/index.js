@@ -22,8 +22,8 @@ export default function Home(){
         <nav className="nav-app">
             <h1>Pearch Digital Test</h1>
             <Link to="/user-details">User Details</Link>
+            <br></br>
             <Link to="/logout">Logout</Link>
         </nav>
-        Home
     </div>
 }

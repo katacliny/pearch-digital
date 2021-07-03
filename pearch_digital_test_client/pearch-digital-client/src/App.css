@@ -1,9 +1,13 @@
 
+body {
+  text-align: center;
+}
 
 .form-group {
   text-align: center;
-  margin-left: 40%;
   max-width: 30%;
+  max-width: 500px;
+  margin: auto;
 }
 
 .form-group input {
@@ -18,15 +22,25 @@
   border-radius: 5px;
   height: 30px;
   width: 100px;
-  border: 0px;
-  margin-left: 72%;
   color: white;
+  margin: 5px;
+}
+
+.delete-button {
+  background-color: lightcoral;
+  border-radius: 5px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  margin: 5px;
+
 }
 
 .form-errors {
   text-align: center;
-  margin-left: 40%;
   max-width: 30%;
+  max-width: 500px;
+  margin: auto;
 }
 
 .error-message {

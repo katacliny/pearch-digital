@@ -31,7 +31,7 @@ class UserPersonalDetailsViewSet(ViewSet):
 
     def create(self, request):
         serializer = UserPersonalDetailsSerializer(data=request.data)
-        
+
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=201)
@@ -80,7 +80,7 @@ class UserDirectionViewSet(ViewSet):
 
     def create(self, request):
         serializer = UserDirectionSerializer(data=request.data)
-        
+
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=201)
@@ -131,7 +131,7 @@ class UserAcademicInfoViewSet(ViewSet):
 
     def create(self, request):
         serializer = UserAcademicInfoSerializer(data=request.data)
-        
+
         if serializer.is_valid():
             serializer.save()
             return Response(serializer.data, status=201)

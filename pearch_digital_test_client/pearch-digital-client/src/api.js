@@ -42,3 +42,13 @@ export async function getData(url){
     });
     return {data: await response.json(), status: response.status}
 }
+
+export async function deleteData(url){
+  const response = await fetch(url,{
+      method: 'DELETE',
+      headers: {
+        'Authorization': sessionStorage.getItem('session-token') ? 'Token ' + sessionStorage.getItem('session-token') : ""
+      },
+  });
+  return {status: response.status}
+}

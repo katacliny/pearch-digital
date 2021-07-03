@@ -36,6 +36,7 @@ function App() {
         <input type="text" placeholder="username" onChange={e => updateUser({...user, username: e.target.value})}  />
         <input type="password" placeholder="password" onChange={e => updateUser({...user, password: e.target.value})}  />
         <button className="submit-button" onClick={login}>Login</button>
+        <br/>
         <Link to="/create-user">Create User</Link>
       </div>
     </div>
