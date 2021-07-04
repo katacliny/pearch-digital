@@ -52,5 +52,6 @@ Useful url:
 ## Running Tests
 
 For backend test run => docker-compose run web_pearch_digital pytest
+![image](https://user-images.githubusercontent.com/34369026/124379382-f0f9e680-dcb6-11eb-9dfb-c9ca0d414522.png)
 
   
