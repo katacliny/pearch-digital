@@ -31,6 +31,9 @@ Install dependencies
 python >= 3
 nodejs
 
+Useful url:
+    / swagger / in this url you will found the swagger for the api
+    / redoc/ in this url you will found the docs for the api
   
 ## Screenshots
 
