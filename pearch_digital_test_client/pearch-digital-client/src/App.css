@@ -56,6 +56,34 @@ body {
   pointer-events: none;
 }
 
+.nav-app {
+  height: 60px;    
+  text-align: right;
+  background-color: darkgray;
+  color: white;
+  box-shadow: 0px 1px 5px black;
+  padding-top: 30px;
+}
+
+.nav-app a {
+    color: white;
+    display: inline;
+    margin: 15px;
+}
+
+
+.nav-app h1 {
+  color: white;
+  display: inline;
+  margin-left: 10px;
+  margin-top: 0;
+  position: absolute;
+  left: 0;
+}
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -22,8 +22,15 @@ export default function Home(){
         <nav className="nav-app">
             <h1>Pearch Digital Test</h1>
             <Link to="/user-details">User Details</Link>
-            <br></br>
             <Link to="/logout">Logout</Link>
         </nav>
+        <br></br>
+        <div className="project-description">
+            This is a test project for digital pearch, in the navigation bar you will find two links, one for log out and the other for user details, in the user details section you will find the requirements on data requested in the exercise statement.
+            <br></br>
+            <br></br>.
+            <br></br>
+            <img src="https://treknews.net/wp-content/uploads/2015/03/best-spock-leonard-nimoy-star-trek-episodes.jpg"></img>
+        </div>
     </div>
 }

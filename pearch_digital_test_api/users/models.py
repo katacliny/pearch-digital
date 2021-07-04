@@ -1,7 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
-
-# Create your models here.
+from .validators import validate_dni
 
 
 class UserPersonalDetails(models.Model):
@@ -11,7 +10,7 @@ class UserPersonalDetails(models.Model):
     surname = models.CharField(max_length=200)
     last_name = models.CharField(max_length=200)
     phone = models.CharField(max_length=200)
-    dni = models.CharField(max_length=200)
+    dni = models.CharField(max_length=200, validators=[validate_dni])
 
 
 class UserDirection(models.Model):

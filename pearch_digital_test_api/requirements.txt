@@ -13,3 +13,4 @@ drf-api-logger
 django-cors-headers
 django-filter
 drf-yasg
+pytest-django

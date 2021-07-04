@@ -1,0 +1,12 @@
+version: "3.3"
+ 
+services:
+
+  web_pearch_digital:
+    build: .
+    command: python manage.py migrate
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
