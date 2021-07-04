@@ -1,7 +1,6 @@
 Django
 djangorestframework
 gunicorn
-drf-generators
 django-typomatic
 black
 pyyml
