@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     "corsheaders",
     "django_filters",
     "django.contrib.sites",
-    "users.apps.UsersConfig",
 ]
 
 MIDDLEWARE = [
